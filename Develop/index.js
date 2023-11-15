@@ -132,4 +132,56 @@ const questions = [
 
 
 // Function call to initialize app
+//function that creates text to be entered into the readme 
+//because this function takes in the response object, it is deconstructed in the parameter for use individually
+function readmeContent ({projectTitle, description,installation,usage,license, contribute, tests, github, email}, badge){
+  return `#<${projectTitle}>
+## Description
+${description}
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [Questions](#questions)
+## Installation
+${installation}
+## Usage
+${usage}
+## License
+${badge}\b
+${license}
+## Contributing
+${contribute}
+## Tests
+${tests}
+## Questions
+You can contact me at:
+GitHub: https://github.com/${github}
+Email: ${email}
+\t`
+}
+
+//function that loops through licenseObject to grab the respective badge
+function checkBadge(response) {
+  //need to use a for in loop to loop through an object
+  for( const key in licenseObject) {
+      //if the user response matches the response in the object
+      if(response.license == licenseObject[key].license){
+          //return the badge at the same key 
+          return licenseObject[key].badge;
+      }
+  }
+}
+
+//initialize function
+function init() {
+  //inquirer package
+  inquirer.prompt(questions).then(response =>{
+      //fs.writeFilesync creates the file directory, with the specific content 
+      fs.writeFileSync("README.md", readmeContent(response, checkBadge(response)))
+  })
+}
+//call init 
 init();
