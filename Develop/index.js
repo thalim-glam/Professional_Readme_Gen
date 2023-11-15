@@ -63,12 +63,26 @@ const licenseObject = {
 // TODO: Create a function to write README file
 //function writeToFile(fileName, data) {}
 
-
-
-
+const licenses = [];
+({licenseOne: {license: licenses[0]},
+licenseTwo: {license: licenses[1]},
+licenseThree: {license: licenses[2]},
+licenseFour: {license: licenses[3]},
+licenseFive: {license: licenses[4]},
+licenseSix: {license: licenses[5]},
+licenseSeven: {license: licenses[6]},
+licenseEight: {license: licenses[7]},
+licenseNine: {license: licenses[8]},
+licenseTen: {license: licenses[9]},
+licenseEleven: {license: licenses[10]},
+licenseTwelve: {license: licenses[11]},
+licenseThirteen: {license: licenses[12]}} = licenseObject)
 
 // TODO: Create a function to initialize app
-function init() {}
+//function init() {}
+
+
+
 
 // Function call to initialize app
 init();
