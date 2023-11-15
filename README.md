@@ -1,77 +1,41 @@
-# Professional README Generator Starter Code
+
+# Professional README Generator 
 
 [How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
-
 ## Description
- 
+
+This project creates a way for a user, to quickly generate a professional looking README, simply by entering in a handful of fields. 
+
+## Table of Contents 
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [Credits](#credits)
+- [License](#license)
+
 ## Installation
 
-## Task 
+You will require NODE. 
 
 ## Usage
 
-## Comand line code
+1. Make sure you have NODE installed.
+2. Inside terminal, run ' node index.js'
+3. Fill in the prompts accordingly, as you see fit. 
+4. Once all the fields are filled, README.MD will be generated in the respective directory. 
 
-I used a lot of git commands like :
-- git status
-- git add -A
-- git commit -m "Comment goes here"
-- git branch
-- git push
-- git pull origin main
-- git checkout main
-- git checkout -b feature/add-branch
+![alt text](/Develop/assets/screenshots/1.png)
+![alt text](/Develop/assets/screenshots/2.png)
+
 
 ## Credits
 
-Apart from me :D the credit also goes to my Instructor, TAs, Tutor, Classmates, and 
-- Google 
-- Geeks for Geeks
-- Stack Overflow
-- MDN web doc
-- Github docs
-- Tutorials Teacher
+forked from starting code @ https://github.com/coding-boot-camp/potential-enigma
 
-## User Story
-
-```
-AS A developer
-I WANT a README generator
-SO THAT I can quickly create a professional README for a new project
-```
-
-## Acceptance Criteria
-
-```
-GIVEN a command-line application that accepts user input
-WHEN I am prompted for information about my application repository
-THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-WHEN I enter my project title
-THEN this is displayed as the title of the README
-WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-WHEN I choose a license for my application from a list of options
-THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-WHEN I enter my GitHub username
-THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-WHEN I enter my email address
-THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
-WHEN I click on the links in the Table of Contents
-THEN I am taken to the corresponding section of the README
-
-```
 ## License
 
-MIT Lisence
----
+Refer to license inside the repo. 
 
 ## Badges
 
-![Shark Badge]( https://github.com/users/thalim-glam/achievements/pull-shark )
-![YoLo Badge]( https://github.com/users/thalim-glam/achievements/yolo )
-
-## Features
-
-## Summary
-
-### Done By: Tasneem Halim
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)(https://opensource.org/licenses/MIT)
