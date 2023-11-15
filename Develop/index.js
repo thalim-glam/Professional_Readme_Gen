@@ -81,7 +81,54 @@ licenseThirteen: {license: licenses[12]}} = licenseObject)
 // TODO: Create a function to initialize app
 //function init() {}
 
-
+//array holding inquirer question data 
+const questions = [
+  {
+      type:"input",
+      message: "Enter the project title",
+      name: "projectTitle"
+  },
+  {
+      type:"input",
+      message: "Enter a description for the project",
+      name: "description"
+  },
+  {
+      type:"input",
+      message: "Enter installation instructions",
+      name: "installation"
+  },
+  {
+      type:"input",
+      message: "Enter usage instructions",
+      name: "usage"
+  },
+  {
+      type:"list",
+      message: "Choose applicable License",
+      choices: licenses,
+      name: "license"
+  },
+  {
+      type:"input",
+      message: "Enter how people can contribute",
+      name: "contribute"
+  },
+  {
+      type:"input",
+      message: "Enter tests",
+      name: "tests"
+  },
+  {
+      type:"input",
+      message: "Enter your github username",
+      name: "github"
+  },
+  {
+      type:"input",
+      message: "Enter your email",
+      name: "email"
+  }]
 
 
 // Function call to initialize app
