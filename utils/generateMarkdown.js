@@ -1,39 +1,34 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
 function renderLicenseBadge(license) {
   if (license !== "NONE") {
-    return `![github license](https://img.shields.io/badge/license-${license}-blue.svg)`
+    return `![Github license](https://img.shields.io/badge/license-${license}-blue.svg)`;
   }
-  return ""
+  return '';
 }
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
 function renderLicenseLink(license) {
   if (license !== "NONE") {
-    return `\n- [License](#license)\n`
+    return `\n* - [License](#license)\n`;
   }
-  return ""
+  return '';
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license !== "NONE") {
-    return `This application was licensed with ${license}`
+    return ` ## License 
+    This application was licensed under the ${license} license.`;
   }
-  return ""
+  return '';
 }
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
-  return `#<${data.projectTitle}>
+  return `## ${data.projectTitle}
   ## Description
   ${data.description}
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
-   ${renderLicenseLink(data.license)}
+  - ${renderLicenseLink(data.license)}
   - [Contributing](#contributing)
   - [Tests](#tests)
   - [Questions](#questions)
@@ -42,7 +37,7 @@ function generateMarkdown(data) {
   ## Usage
   ${data.usage}
   ## License
-  ${renderLicenseBadge(data.license)}\b
+  ${renderLicenseBadge(data.license)} \n
   ${data.license}
   ## Contributing
   ${data.contribute}
@@ -50,7 +45,7 @@ function generateMarkdown(data) {
   ${data.tests}
   ## Questions
   You can contact me at:
-  GitHub: https://github.com/${data.github}
+  GitHub: https://github.com/${data.github} \n
   Email: ${data.email}
   ${renderLicenseSection(data.license)}
   \t
