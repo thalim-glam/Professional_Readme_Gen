@@ -26,6 +26,11 @@ const questions = [
         name: "usage"
     },
     {
+        type: "input",
+        message: "Please mention the credits: ",
+        name: "credits"
+    },
+    {
         type: "list",
         message: "Choose applicable License",
         choices: ["MIT", "APACHE 2.0", "BSD 3", "NONE"],

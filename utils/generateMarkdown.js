@@ -36,6 +36,8 @@ function generateMarkdown(data) {
   ${data.installation}
   ## Usage
   ${data.usage}
+  ## Credits
+  ${data.credits}
   ## License
   ${renderLicenseBadge(data.license)} \n
   ${data.license}
@@ -44,9 +46,10 @@ function generateMarkdown(data) {
   ## Tests
   ${data.tests}
   ## Questions
-  You can contact me at:
-  GitHub: https://github.com/${data.github} \n
+  Contact Me:
   Email: ${data.email}
+  GitHub: https://github.com/${data.github} \n
+  
   ${renderLicenseSection(data.license)}
   \t
 
