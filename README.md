@@ -1,34 +1,42 @@
-## Profession README Gen
+## Professional README Gen
   ## Description
-  This is our nineth challenge for coding bootcamp where we are generating a professional README using command line.
+  When creating an open source project on GitHub, it’s important to have a high-quality README file. This generator will quickly and easily generate a README file by using a command-line application.
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
   - [Credits](#credits)
 * - [License](#license)
-
   - [Contributing](#contributing)
   - [Tests](#tests)
   - [Questions](#questions)
   ## Installation
-  Please clone the repository and test it. There is also a walkthrough video to show how the code works.
+  To install please use VSCode and node.js
   ## Usage
-  To run the code, open index.js in integrated terminal and type node index with an enter.
+  This application can be used to create Professional README pages for different homeworks / projects.
+  Here are the sample screenshots
+- Screenshot : Initial Pages
+![Screenshot of Initial page](./Screenshot_1.png)
+- Screenshot : GIF Version 
+![Screenshot of GIF version](./Challenge-9_gif.gif)
+- Screenshot: Walkthrough Video
+![Screenshot of Walkthrough Video](./UCBChallenge9.mpg)
+
   ## Credits
-  All the credits belongs to me and only me... HA HA HA!
+  Apart from me, the credit goes to my instructor, TAs and Tutor.
+  
   ## License
   ![Github license](https://img.shields.io/badge/license-MIT-blue.svg) 
 
   MIT
   ## Contributing
-  Pleople can fork and change their own way or update the existing code and send pull request.
+  People can update my code.
   ## Tests
-  Test it
+  To test please us VSCode and CLI
   ## Questions
   Contact Me:
-  GitHub: https://github.com/codewars 
+  - Email: abc@gmail.org
+  - GitHub: https://github.com/thalim-glam 
 
-  Email: codecode@code.org
    ## License 
     This application was licensed under the MIT license.
   	
